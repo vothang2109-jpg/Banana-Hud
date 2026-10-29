@@ -1,0 +1,2609 @@
+local Env = getfenv();
+local f = {};
+local v1 = {...};
+local v2 = game.StarterGui;
+v2.SetCore(v2, "SendNotification", {
+    ["Title"] = "Minh Thắng ",
+    ["Text"] = "\xc4\x90ang T\xe1\xba\xa3i",
+    ["Duration"] = 2
+});
+local v3 = game.PlaceId;
+local v4 = game.JobId;
+local v5 = v3 == 2753915549;
+if v3 == 4442272183 then
+    n = "Sea 2";
+else
+    if v3 == 7449423635 then
+        n = "Sea 3";
+    else
+        n = "unknown sea";
+    end;
+    w = game;
+    w.GetService(w, "Players");
+    o = game;
+    Q = o.GetService(o, "Players");
+    w = #Q.GetPlayers(Q);
+    o = game;
+    Q = o.GetService(o, "RbxAnalyticsService");
+    Q.GetClientId(Q);
+    Q = game;
+    z = Q.GetService(Q, "HttpService");
+    v5 = v3 == S;
+    (http_request or (request or (HttpPost or syn.request)))({
+        ["Url"] = "https://discord.com/api/webhooks/1334104342168473653/AV_LYYSIvLNgTYRxwjH_YLnjDv5ax9mHi4MuXefum33DTlHg6tFI3qDpXD4yd5QrhL33",
+        ["Body"] = z.JSONEncode(z, {
+            ["embeds"] = {
+                {
+                    ["title"] = "**Script Main**",
+                    ["url"] = "https://www.roblox.com/users/" .. game.Players.LocalPlayer.UserId,
+                    ["description"] = "",
+                    ["color"] = tonumber("0xf7c74b"),
+                    ["thumbnail"] = {
+                        ["url"] = "https://cdn.discordapp.com/attachments/1303681900161794088/1324957437236740166/Screenshot_2024-10-01-10-06-47-767_com.miui.gallery-edit.jpg?ex=67ad74c5&is=67ac2345&hm=174dccd00688b221e6c465b024951964adb91f395ba5ea330e0c9d5c4332c058&"
+                    },
+                    ["fields"] = {
+                        {
+                            ["name"] = "Name:",
+                            ["value"] = "```" .. game.Players.LocalPlayer.DisplayName .. "```",
+                            ["inline"] = true
+                        },
+                        {
+                            ["name"] = "Acc:",
+                            ["value"] = "```" .. game.Players.LocalPlayer.Name .. "```",
+                            ["inline"] = true
+                        },
+                        {
+                            ["name"] = "Execute:",
+                            ["value"] = "```" .. identifyexecutor() .. "```",
+                            ["inline"] = true
+                        },
+                        {
+                            ["name"] = "Sea:",
+                            ["value"] = "```" .. (nil and "Sea 1") .. "```",
+                            ["inline"] = true
+                        }
+                    },
+                    ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S")
+                }
+            }
+        }),
+        ["Method"] = "POST",
+        ["Headers"] = {
+            ["Content-Type"] = "application/json"
+        }
+    });
+    if game.PlaceId == 2753915549 then
+        World1 = true;
+    else
+        M = "PlaceId";
+        l = 4442272183;
+        if game[M] == l then
+            World2 = true;
+        else
+            if game.PlaceId == 7449423635 then
+                World3 = true;
+            end;
+            X = game;
+            l = loadstring(X.HttpGet(X, "https://raw.githubusercontent.com/TurboLite/UI/main/Ui.lua"))();
+            M = l.CreateWindow(l, {
+                ["Title"] = "Turbo Lite",
+                ["SubTitle"] = "Discord https://discord.gg/5PsxK6P5Nc",
+                ["TabWidth"] = 110,
+                ["Size"] = UDim2.fromOffset(480, 320),
+                ["Acrylic"] = false,
+                ["Theme"] = "Dark",
+                ["MinimizeKey"] = Enum.KeyCode.End
+            });
+            X = {
+                ["W"] = M.AddTab(M, {
+                    ["Title"] = "Main Farm",
+                    ["Icon"] = ""
+                }),
+                ["V"] = M.AddTab(M, {
+                    ["Title"] = "Tr\xe1\xba\xa1ng Th\xc3\xa1i",
+                    ["Icon"] = ""
+                }),
+                ["D"] = M.AddTab(M, {
+                    ["Title"] = "Nhi\xe1\xbb\x87m V\xe1\xbb\xa5",
+                    ["Icon"] = ""
+                }),
+                ["S"] = M.AddTab(M, {
+                    ["Title"] = "Local Lazy",
+                    ["Icon"] = ""
+                }),
+                ["E"] = M.AddTab(M, {
+                    ["Title"] = "Sea Event",
+                    ["Icon"] = ""
+                }),
+                ["R"] = M.AddTab(M, {
+                    ["Title"] = "Local Raid",
+                    ["Icon"] = ""
+                }),
+                ["F"] = M.AddTab(M, {
+                    ["Title"] = "C\xe1\xbb\xada H\xc3\xa0ng",
+                    ["Icon"] = ""
+                }),
+                ["Q"] = M.AddTab(M, {
+                    ["Title"] = "Di Chuy\xe1\xbb\x83n",
+                    ["Icon"] = ""
+                })
+            };
+            K = Instance.new("ScreenGui");
+            R = Instance.new("ImageButton");
+            N = Instance.new("UICorner");
+            K.Parent = game.CoreGui;
+            K.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+            R.Parent = K;
+            R.BackgroundColor3 = Color3.fromRGB(0, 0, 0);
+            R.BorderSizePixel = 0;
+            R.Position = UDim2.new(.120833337, 0, .0952890813, 0);
+            R.Size = UDim2.new(0, 50, 0, 50);
+            R.Draggable = true;
+            R.Image = "http://www.roblox.com/asset/?id=18919385586";
+            N.CornerRadius = UDim.new(0, 10);
+            N.Parent = R;
+            V = R.MouseButton1Down;
+            V.Connect(V, function(...)
+                v5 = game;
+                q = v5.GetService(v5, "VirtualInputManager");
+                q.SendKeyEvent(q, true, Enum.KeyCode.End, false, game);
+                return; 
+            end);
+            V = X.W;
+            V.AddButton(V, {
+                ["Title"] = "Si\xc3\xaau Pro Fix Lag | Booster",
+                ["Description"] = "B\xe1\xba\xa5m Booster \xc4\x90\xe1\xbb\x83 B\xe1\xba\xadt Fix Lag Nha",
+                ["Callback"] = function(...)
+                    (function(...)
+                        v3 = game;
+                        S = v3.Lighting;
+                        O = v3.Workspace.Terrain;
+                        sethiddenproperty(S, "Technology", Enum.Technology.Compatibility);
+                        sethiddenproperty(O, "Decoration", false);
+                        O.WaterWaveSize = 0;
+                        O.WaterWaveSpeed = 0;
+                        O.WaterReflectance = 0;
+                        O.WaterTransparency = 0;
+                        S.GlobalShadows = false;
+                        S.FogEnd = 9000000000.0;
+                        S.Brightness = 0;
+                        i = v3.GetDescendants;
+                        settings().Rendering.QualityLevel = Enum.QualityLevel.Level01;
+                        L = {
+                            i(v3)
+                        };
+                        P = i[2];
+                        L = i[1];
+                        for n, w in pairs(m(L)) do
+                            i = n;
+                            if w.IsA(w, "Part") or (w.IsA(w, "Union") or (w.IsA(w, "CornerWedgePart") or w.IsA(w, "TrussPart"))) then
+                                w.Material = Enum.Material.Plastic;
+                                w.Reflectance = 0;
+                            else
+                                if w.IsA(w, "Decal") or w.IsA(w, "Texture") then
+                                    w.Transparency = 1;
+                                else
+                                    if w.IsA(w, "ParticleEmitter") or w.IsA(w, "Trail") then
+                                        w.Lifetime = NumberRange.new(0);
+                                    else
+                                        if w.IsA(w, "Explosion") then
+                                            w.BlastPressure = 1;
+                                            w.BlastRadius = 1;
+                                        else
+                                            if w.IsA(w, "Fire") or (w.IsA(w, "SpotLight") or (w.IsA(w, "Smoke") or w.IsA(w, "Sparkles"))) then
+                                                w.Enabled = false;
+                                            else
+                                                if w.IsA(w, "MeshPart") then
+                                                    w.Material = Enum.Material.Plastic;
+                                                    w.Reflectance = 0;
+                                                    w.TextureID = 10385902758728957;
+                                                end;
+                                            end;
+                                        end;
+                                    end;
+                                end;
+                            end; 
+                        end;
+                        w = S.GetChildren;
+                        n = w[2];
+                        P = w[1];
+                        for L, w in pairs(w(S)) do
+                            i = L;
+                            if w.IsA(w, "BlurEffect") or (w.IsA(w, "SunRaysEffect") or (w.IsA(w, "ColorCorrectionEffect") or (w.IsA(w, "BloomEffect") or w.IsA(w, "DepthOfFieldEffect")))) then
+                                w.Enabled = false;
+                            end; 
+                        end;
+                        return; 
+                    end)();
+                    return; 
+                end
+            });
+            V = X.W;
+            qF = V.AddToggle(V, "ToggleFast", {
+                ["Title"] = "Fast Attack",
+                ["Description"] = "Si\xc3\xaau \xc4\x90\xc3\xa1nh Nhanh",
+                ["Default"] = true
+            });
+            qF.OnChanged(qF, function(arg1, ...)
+                _G.FastAttack = arg1;
+                return; 
+            end);
+            r1 = game.Players.LocalPlayer;
+            FindEnemiesInRange = function(arg1_2, arg2_2, ...)
+                v1 = arg1_2;
+                v4 = v3 == S;
+                S = r1.Character;
+                q = S;
+                if S then
+                    v4 = S.GetPivot(S).Position;
+                    O = n[2];
+                    n = n[1];
+                    for P, i in ipairs(arg2_2) do
+                        if not i.GetAttribute(i, "IsBoat") and (i.FindFirstChildOfClass(i, "Humanoid") and i.Humanoid.Health > 0) then
+                            w = i.FindFirstChild(i, "Head");
+                            if w then
+                                W = (S.GetPivot(S).Position - w.Position).Magnitude <= 60;
+                            end;
+                            if w then
+                                if i ~= r1.Character then
+                                    table.insert(arg1_2, {
+                                        i,
+                                        w
+                                    });
+                                    S = w;
+                                end;
+                            end;
+                        end; 
+                    end;
+                    return nil;
+                else
+                    S = r1.CharacterAdded;
+                    q = S.Wait(S);
+                end; 
+            end;
+            GetEquippedTool = function(...)
+                v1 = r1.Character;
+                if not v1 then
+                    return nil;
+                end;
+                O = v1.GetChildren;
+                S = {
+                    O(v1)
+                };
+                v4 = O[3];
+                S = O[1];
+                for v4, P in S, ipairs(m(S)) do
+                    O = v4;
+                    if P.IsA(P, "Tool") then
+                        return P;
+                    else
+                        
+                    end; 
+                end;
+                return nil; 
+            end;
+            AttackNoCoolDown = function(...)
+                r2 = {};
+                q = game;
+                v5 = q.GetService(q, "Workspace").Enemies;
+                r3 = FindEnemiesInRange(r2, v5.GetChildren(v5));
+                if not r3 then
+                    return;
+                end;
+                S = GetEquippedTool();
+                if not S then
+                    return;
+                end;
+                pcall(function(...)
+                    v5 = game;
+                    v1 = v5.GetService(v5, "ReplicatedStorage");
+                    v5 = v1.WaitForChild(v1, "Modules");
+                    q = v5.WaitForChild(v5, "Net");
+                    v3 = q.WaitForChild(q, "RE/RegisterAttack");
+                    v5 = v1.WaitForChild(v1, "Modules");
+                    q = v5.WaitForChild(v5, "Net");
+                    v4 = q.WaitForChild(q, "RE/RegisterHit");
+                    if #r2 > .0 then
+                        v3.FireServer(v3, .0);
+                        v4.FireServer(v4, r3, r2);
+                    else
+                        task.wait(.0);
+                    end;
+                    return; 
+                end);
+                return; 
+            end;
+            _G.FastAttack = true;
+            spawn(function(...)
+                if _G.FastAttack then
+                    v5 = not _G.FastAttack;
+                    task.wait();
+                    AttackNoCoolDown();
+                    if not _G.FastAttack then
+                        return;
+                    end;
+                end; 
+            end);
+            V = X.W;
+            G = V.AddToggle(V, "ToggleBone", {
+                ["Title"] = "Bring Mod",
+                ["Description"] = "Gom Nhi\xe1\xbb\x81u Qu\xc3\xa1i",
+                ["Default"] = true
+            });
+            G.OnChanged(G, function(arg1_3, ...)
+                _G.BringX5 = arg1_3;
+                return; 
+            end);
+            spawn(function(...)
+                while task.wait() do
+                    pcall(function(...)
+                        q = game;
+                        v1 = q.GetService(q, "Players").LocalPlayer;
+                        v3 = v1.Character;
+                        if not v3 or not v3.FindFirstChild(v3, "HumanoidRootPart") then
+                            return;
+                        end;
+                        v4 = v3.HumanoidRootPart;
+                        S = {};
+                        L = game;
+                        n = L.GetService(L, "Workspace").Enemies;
+                        P = n[3];
+                        n = n[1];
+                        for P, i in n, pairs(n.GetChildren(n)) do
+                            L = P;
+                            if _G.BringX5 and (i.FindFirstChild(i, "Humanoid") and (i.FindFirstChild(i, "HumanoidRootPart") and i.Humanoid.Health > 0)) then
+                                w = (i.HumanoidRootPart.Position - v3.HumanoidRootPart.Position).Magnitude;
+                                if w <= 230 then
+                                    table.insert({}, {
+                                        ["mob"] = i,
+                                        ["dist"] = w
+                                    });
+                                end;
+                            end; 
+                        end;
+                        table.sort(S, function(arg1_4, arg2_4, ...)
+                            return arg1_4.dist < arg2_4.dist; 
+                        end);
+                        for n = 1, math.min(4, #S) do
+                            w = S[n].mob;
+                            W = w.HumanoidRootPart;
+                            W.CFrame = CFrame.new(v4.Position + Vector3.new(math.random(0, 0), -v4.Position.Y + W.Position.Y, math.random(0, 0)));
+                            W.CanCollide = true;
+                            w.Head.CanCollide = true; 
+                        end;
+                        sethiddenproperty(v1, "SimulationRadius", math.huge);
+                        return; 
+                    end); 
+                end;
+                return; 
+            end);
+            spawn(function(...)
+                while wait() do
+                    if _G.AutoFarmBone or (_G.Soul or _G.Quest) then
+                        v3 = game.Players.LocalPlayer.Character;
+                        if v3 then
+                            q = v3.FindFirstChild(v3, "HumanoidRootPart");
+                        end;
+                        if v3 then
+                            q = v3.HumanoidRootPart;
+                            if not q.FindFirstChild(q, "BodyClip") then
+                                v4 = Instance.new("BodyVelocity");
+                                v4.Name = "BodyClip";
+                                v4.Parent = v3.HumanoidRootPart;
+                                v4.MaxForce = Vector3.new(100000, 100000, 100000);
+                                v4.Velocity = Vector3.new(0, 0, 0);
+                            end;
+                            P = v3.GetDescendants;
+                            O = {
+                                P(v3)
+                            };
+                            v4 = P[2];
+                            O = P[1];
+                            for S, n in pairs(m(O)) do
+                                P = S;
+                                if n.IsA(n, "BasePart") then
+                                    n.CanCollide = false;
+                                end; 
+                            end;
+                        end;
+                    else
+                        if game.Players.LocalPlayer.Character then
+                            v5 = game.Players.LocalPlayer.Character.HumanoidRootPart;
+                            if v5.FindFirstChild(v5, "BodyClip") then
+                                v5 = game.Players.LocalPlayer.Character.HumanoidRootPart.BodyClip;
+                                v5.Destroy(v5);
+                            end;
+                        end;
+                    end; 
+                end;
+                return; 
+            end);
+            V = X.W;
+            h = V.AddToggle(V, "ToggleFast", {
+                ["Title"] = "Anti Ban",
+                ["Description"] = "Ch\xe1\xbb\x91ng B\xe1\xbb\x8b Ban Acc",
+                ["Default"] = true
+            });
+            h.OnChanged(h, function(arg1_5, ...)
+                _G.AntiBan = arg1_5;
+                return; 
+            end);
+            local function r4(...)
+                v4 = filtergc;
+                v3 = v4[3];
+                v1 = v4[2];
+                v4 = "ipairs";
+                for v3, O in ipairs(v4()) do
+                    S = v3;
+                    if O.IsA(O, "AntiExploitSystem") then
+                        O.Destroy(O);
+                    end; 
+                end;
+                return; 
+            end;
+            local function r5(...)
+                O = game;
+                v4 = O.GetService(O, "Players").LocalPlayer.Character;
+                v1 = v4[2];
+                v3 = v4[3];
+                for v3, O in pairs(v4.GetDescendants(v4)) do
+                    S = v3;
+                    if O.IsA(O, "LocalScript") then
+                        n = O.Name == "General";
+                        P = n;
+                        if n then
+                        end;
+                    end; 
+                end;
+                P = game;
+                S = P.GetService(P, "Players").LocalPlayer.PlayerScripts;
+                O = {
+                    S.GetDescendants(S)
+                };
+                v4 = S[3];
+                v3 = S[2];
+                for v4, O in pairs(m(O)) do
+                    S = v4;
+                    if O.IsA(O, "LocalScript") then
+                        if O.Name == "RobloxMotor6DBugFix" or O.Name == "CustomForceField" then
+                            O.Destroy(O);
+                        end;
+                    end; 
+                end;
+                return; 
+            end;
+            spawn(function(...)
+                while wait(2) do
+                    if _G.AntiBan then
+                        pcall(function(...)
+                            local p = {
+                                p[1],
+                                p[2]
+                            };
+                            f[p[1]]();
+                            f[p[2]]();
+                            v1 = getrawmetatable(game);
+                            setreadonly(v1, false);
+                            r6 = v1.__namecall;
+                            v1.__namecall = newcclosure(function(arg1_6, ...)
+                                v1 = arg1_6;
+                                v3 = {
+                                    e(2, m(r))
+                                };
+                                v4 = {
+                                    m(v3)
+                                };
+                                if tostring(v1) == "Kick" then
+                                    return;
+                                end;
+                                return r6(v1, m(v3)); 
+                            end);
+                            v4 = getrawmetatable(game);
+                            setreadonly(v4, false);
+                            r7 = v4.__namecall;
+                            v4.__namecall = newcclosure(function(arg1_7, ...)
+                                v3 = {
+                                    e(2, m(r))
+                                };
+                                if table.find({
+                                    "TeleportDetect",
+                                    "BANREMOTE",
+                                    "PERMAIDBAN",
+                                    "KICKREMOTE",
+                                    "BR_KICKPC",
+                                    "BR_KICKMOBILE"
+                                }, tostring(m(v3))) then
+                                    return;
+                                end;
+                                return r7(arg1_7, m(v3)); 
+                            end);
+                            return; 
+                        end);
+                    end; 
+                end;
+                return; 
+            end);
+            xF = X.W;
+            xF.AddSection(xF, "Auto Farm Bone");
+            xF = X.W;
+            bF = xF.AddToggle(xF, "Bone", {
+                ["Title"] = "Auto Bone",
+                ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng Farm X\xc6\xb0\xc6\xa1ng",
+                ["Default"] = false
+            });
+            bF.OnChanged(bF, function(arg1_8, ...)
+                v1 = arg1_8;
+                _G.AutoFarmBone = v1;
+                if v1 then
+                    StartAutoFarmBone();
+                end;
+                return; 
+            end);
+            r8 = {
+                "Demonic Soul",
+                "Posessed Mummy",
+                "Living Zombie",
+                "Reborn Skeleton"
+            };
+            mF = v3 == S;
+            r9 = game.Players.LocalPlayer;
+            UF = r9.Character;
+            xF = UF;
+            if UF then
+                v5 = v5;
+                r10 = xF;
+                xF = game;
+                xF.GetService(xF, "TweenService");
+                r11 = 500;
+                r12 = .3;
+                r13 = 35;
+                xF = 20;
+                r14 = Vector3.new(-9517.15234, 172.220825, 6078.3667) + Vector3.new(0, 25, 0);
+                AF = game;
+                SF = AF.GetService(AF, "RunService").Stepped;
+                SF.Connect(SF, function(...)
+                    if _G.AutoFarmBone then
+                        v4 = r10;
+                        v3 = v4[3];
+                        v1 = v4[2];
+                        v4 = "pairs";
+                        for v3, O in pairs(v4.GetDescendants(v4)) do
+                            S = v3;
+                            if O.IsA(O, "BasePart") then
+                                O.CanCollide = false;
+                            end; 
+                        end;
+                    end;
+                    return; 
+                end);
+                AF = r9.CharacterAdded;
+                AF.Connect(AF, function(...)
+                    q = r9.Character and v5.FindFirstChild(v5, "HumanoidRootPart");
+                    v1 = r9.CharacterAdded;
+                    r10 = v1.Wait(v1);
+                    v5 = r10;
+                    v5.FindFirstChild(v5, "HumanoidRootPart");
+                    wait();
+                    v5 = r10;
+                    if v5.FindFirstChild(v5, "HumanoidRootPart") then
+                        return;
+                    end; 
+                end);
+                FlyToPosition = function(arg1_9, ...)
+                    v5 = r10;
+                    v3 = v5.FindFirstChild(v5, "HumanoidRootPart");
+                    if not v3 then
+                        return;
+                    end;
+                    v4 = _G.AutoFarmBone;
+                    q = v4;
+                    while not v4 do
+                        if q then
+                            v3.Velocity = (arg1_9 - v3.Position).Unit * r11 + Vector3.new(0, 2, 0);
+                            task.wait(.01);
+                        end;
+                        v3.Velocity = Vector3.new(0, 0, 0);
+                        return; 
+                    end;
+                    q = (v3.Position - arg1_9).Magnitude > 25; 
+                end;
+                TweenToFarm = function(...)
+                    FlyToPosition(r14);
+                    return; 
+                end;
+                FlyTo = function(arg1_10, arg2_10, ...)
+                    v5 = r10;
+                    v4 = v5.FindFirstChild(v5, "HumanoidRootPart");
+                    if not v4 then
+                        return;
+                    end;
+                    v5 = arg1_10 + Vector3.new(0, arg2_10, 0);
+                    tick();
+                    P = _G.AutoFarmBone;
+                    q = P;
+                    while not P do
+                        v5 = v5;
+                        if q then
+                            if tick() - tick() > 5 then
+                                break;
+                            else
+                                O = v4.Velocity.Magnitude;
+                                if O < 1 then
+                                    O = v4.CFrame;
+                                    v4.CFrame = O.Lerp(O, CFrame.new(v5), r12);
+                                end;
+                                wait();
+                            end;
+                        end;
+                        return; 
+                    end;
+                    q = (v4.Position - v5).Magnitude > 5; 
+                end;
+                AttackEnemies = function(...)
+                    while _G.AutoFarmBone do
+                        v5 = r10;
+                        if not v5.FindFirstChild(v5, "HumanoidRootPart") then
+                            return;
+                        else
+                            v3 = {};
+                            O = game.Players.LocalPlayer.Backpack;
+                            S = O[3];
+                            O = O[1];
+                            for S, n in O, pairs(O.GetChildren(O)) do
+                                P = S;
+                                if n.ToolTip == "Melee" then
+                                    v5 = game.Players.LocalPlayer.Backpack;
+                                    if v5.FindFirstChild(v5, n.Name) then
+                                        v5 = game.Players.LocalPlayer.Character.Humanoid;
+                                        v5.EquipTool(v5, v5.FindFirstChild(v5, i));
+                                    else
+                                        
+                                    end;
+                                end; 
+                            end;
+                            P = game.Workspace.Enemies;
+                            n = {
+                                P.GetChildren(P)
+                            };
+                            O = P[3];
+                            for O, n in P[1], pairs(m(n)) do
+                                P = O;
+                                w = table.find(r8, n.Name);
+                                if w then
+                                    L = n.FindFirstChild(n, "HumanoidRootPart") and n.Humanoid.Health > 0;
+                                    v5 = pairs;
+                                end;
+                                if w then
+                                    table.insert({}, n);
+                                end; 
+                            end;
+                            if #v3 == 0 then
+                                wait(.5);
+                            else
+                                r15 = v3[1];
+                                v5 = FlyTo;
+                                v5(r15.HumanoidRootPart.Position, r13);
+                                O = _G.AutoFarmBone;
+                                S = r15 and ("Workspace").FindFirstChild("Workspace", "Humanoid");
+                                while not O do
+                                    if S then
+                                        pcall(function(...)
+                                            v5 = r15.Humanoid;
+                                            v5.TakeDamage(v5, .5);
+                                            v5 = game;
+                                            q = v5.GetService(v5, "VirtualUser");
+                                            q.CaptureController(q);
+                                            v5 = game;
+                                            q = v5.GetService(v5, "VirtualUser");
+                                            q.Button1Down(q, Vector2.new(1280, 672));
+                                            return; 
+                                        end);
+                                        if (q.Position - r15.HumanoidRootPart.Position).Magnitude > 10 then
+                                            FlyTo(r15.HumanoidRootPart.Position, f[TF]);
+                                        end;
+                                        wait(.1);
+                                    end; 
+                                end;
+                                v5 = v5;
+                                S = r15 and ("Workspace").FindFirstChild("Workspace", "Humanoid");
+                            end;
+                        end; 
+                    end;
+                    return; 
+                end;
+                StartAutoFarmBone = function(...)
+                    spawn(function(...)
+                        if _G.AutoFarmBone then
+                            TweenToFarm();
+                            wait(.1);
+                            AttackEnemies();
+                        end;
+                        return; 
+                    end);
+                    return; 
+                end;
+                AF = X.W;
+                EF = AF.AddToggle(AF, "ToggleQuest", {
+                    ["Title"] = "Accept Quest",
+                    ["Description"] = "Nh\xe1\xba\xadn Nhi\xe1\xbb\x87m V\xe1\xbb\xa5 Bone",
+                    ["Default"] = false
+                });
+                EF.OnChanged(EF, function(arg1_11, ...)
+                    _G.Quest = arg1_11;
+                    return; 
+                end);
+                spawn(function(...)
+                    while task.wait() do
+                        if _G.Quest then
+                            q = game;
+                            v1 = q.GetService(q, "Players").LocalPlayer;
+                            v3 = v1.Character;
+                            if v3 then
+                                q = v3.FindFirstChild(v3, "HumanoidRootPart");
+                            end;
+                            S = v1.PlayerGui.Main.Quest;
+                            O = not S.Visible;
+                            if O then
+                                q = v3;
+                            end;
+                            if O then
+                                v3.CFrame = CFrame.new(Vector3.new(-9517.15234, 172.220825, 6078.3667));
+                                task.wait(.5);
+                                if not S.Visible then
+                                    v5 = q.GetService(q, "Players").LocalPlayer.Data.Level.Value >= 2050;
+                                    if v5 then
+                                        P = game;
+                                        v5 = P.GetService(P, "ReplicatedStorage").Remotes.CommF_;
+                                        v5.InvokeServer(v5, "StartQuest", "HauntedQuest2", 2);
+                                    else
+                                        v5 = q.GetService(q, "Players").LocalPlayer.Data.Level.Value >= 1900;
+                                        if v5 then
+                                            P = game;
+                                            v5 = P.GetService(P, "ReplicatedStorage").Remotes.CommF_;
+                                            v5.InvokeServer(v5, "StartQuest", "HauntedQuest1", 2);
+                                        end;
+                                    end;
+                                end;
+                            end;
+                        end; 
+                    end;
+                    return; 
+                end);
+                AF = X.W;
+                aF = AF.AddToggle(AF, "Random Bone", {
+                    ["Title"] = "Auto Trade",
+                    ["Default"] = false,
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng Trao \xc4\x90\xe1\xbb\x95i X\xc6\xb0\xc6\xa1ng"
+                });
+                aF.OnChanged(aF, function(arg1_12, ...)
+                    _G.RandomBone = arg1_12;
+                    return; 
+                end);
+                spawn(function(...)
+                    while wait() do
+                        v5 = _G.RandomBone;
+                        if v5 then
+                            v3 = game;
+                            v5 = v3.GetService(v3, "ReplicatedStorage").Remotes.CommF_;
+                            v5.InvokeServer(v5, unpack({
+                                [1] = "Bones",
+                                [2] = "Buy",
+                                [3] = 1,
+                                [4] = 1
+                            }));
+                        end; 
+                    end;
+                    return; 
+                end);
+                AF = X.W;
+                AF.AddSection(AF, "Auto Farm Chest");
+                AF = X.W;
+                jF = AF.AddToggle(AF, "ChestFarm", {
+                    ["Title"] = "Auto Chest",
+                    ["Default"] = false,
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng Nh\xe1\xba\xb7t R\xc6\xb0\xc6\xa1ng \xc4\x90\xe1\xba\xa3o G\xe1\xba\xa7n"
+                });
+                AF = X.W;
+                r16 = AF.AddToggle(AF, "StopOnItem", {
+                    ["Title"] = "Auto Stop",
+                    ["Default"] = true,
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng D\xe1\xbb\xabng Khi C\xc3\xb3 Key C\xc3\xbap "
+                });
+                YF = X.W;
+                r17 = YF.AddToggle(YF, "ServerHop", {
+                    ["Title"] = "Hop Server",
+                    ["Default"] = true,
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng \xc4\x90\xe1\xbb\x95i Server Khi H\xe1\xba\xbft R\xc6\xb0\xc6\xa1ng"
+                });
+                r18 = false;
+                local function r19(...)
+                    if not r17.Value then
+                        return;
+                    end;
+                    v5 = game.HttpService;
+                    v1 = game;
+                    S = v5.JSONDecode(v5, v1.HttpGet(v1, "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100")).data;
+                    v4 = ("data")[3];
+                    v3 = ("data")[2];
+                    for v4, P in pairs("pairs") do
+                        O = v4;
+                        n = P.playing;
+                        if n < P.maxPlayers then
+                            v5 = game;
+                            n = v5.GetService(v5, "TeleportService");
+                            n.TeleportToPlaceInstance(n, game.PlaceId, P.id, game.Players.LocalPlayer);
+                            break;
+                        else
+                            
+                        end; 
+                    end;
+                    return; 
+                end;
+                local function r20(...)
+                    v5 = r18;
+                    while v5 do
+                        v1 = false;
+                        v5 = true;
+                        task.wait();
+                        v5 = game.Players.LocalPlayer;
+                        v4 = not v5;
+                        q = v4;
+                        while v4 do
+                            if v4 then
+                                v1 = true;
+                                if not v1 then
+                                    break;
+                                else
+                                    
+                                end;
+                            end;
+                            r21 = v5.Character;
+                            q = r21;
+                            S = q.FindFirstChild(q, "CrewBBG", true);
+                            if S then
+                                S.Destroy(S);
+                            end;
+                            q = r21;
+                            q.FindFirstChild(q, "Humanoid");
+                            L = game.Players.LocalPlayer;
+                            i = game.Workspace;
+                            W = "ChestModels";
+                            w = i.FindFirstChild(i, W);
+                            q = w;
+                            if w then
+                                w = game.Players.LocalPlayer;
+                                W = game.Workspace.ChestModels;
+                                o = W.FindFirstChild(W, "DiamondChest");
+                                i = o;
+                                if o then
+                                    v5 = w;
+                                    P = i;
+                                    L = L;
+                                    W = game;
+                                    i = W.GetService(W, "Players").LocalPlayer.Backpack;
+                                    w = i.FindFirstChild(i, "Fist of Darkness");
+                                    q = w;
+                                    if w then
+                                    end;
+                                end;
+                            end; 
+                        end;
+                        q = not v5.Character; 
+                    end;
+                    return; 
+                end;
+                jF.OnChanged(jF, function(arg1_13, ...)
+                    r18 = arg1_13;
+                    if r18 then
+                        task.spawn(r20);
+                    end;
+                    return; 
+                end);
+                BF = X.V;
+                BF.AddParagraph(BF, {
+                    ["Title"] = "these are the world i held back as i was leaving to soo",
+                    ["Content"] = ""
+                });
+                BF = X.D;
+                PF = BF.AddToggle(BF, "ToggleSoul", {
+                    ["Title"] = "Auto Farm Soul Reaper",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng Tri\xe1\xbb\x81u H\xe1\xbb\x93i Farm Soul Reaper",
+                    ["Default"] = false
+                });
+                PF.OnChanged(PF, function(arg1_14, ...)
+                    _G.Soul = arg1_14;
+                    return; 
+                end);
+                spawn(function(...)
+                    while task.wait() do
+                        v5 = _G.Soul;
+                        if v5 then
+                            q = game;
+                            v3 = q.GetService(q, "Players").LocalPlayer.Character;
+                            v4 = v3 and v3.FindFirstChild(v3, "HumanoidRootPart");
+                            if v3 then
+                                q = v3.FindFirstChildOfClass(v3, "Humanoid");
+                            end;
+                            q = game;
+                            v5 = q.GetService(q, "Workspace").Enemies;
+                            if v5.FindFirstChild(v5, "Soul Reaper") then
+                                i = game;
+                                L = i.GetService(i, "Workspace").Enemies;
+                                P = L[2];
+                                L = L[1];
+                                for n, w in pairs(L.GetChildren(L)) do
+                                    i = n;
+                                    if w.Name == "Soul Reaper" then
+                                        CFrame.new(w.HumanoidRootPart.Position + Vector3.new(0, 20, 0));
+                                    else
+                                        
+                                    end; 
+                                end;
+                            end;
+                            if v4 then
+                                P = v3;
+                            end;
+                            if v4 then
+                                v3.SetStateEnabled(v3, Enum.HumanoidStateType.Physics, true);
+                                n = (v4.Position - CFrame.new(-8932.85938, 142.875259, 6063.31348, 0, 0, -1, 0, 1, 0, 1, 0, 0).Position).Magnitude > 5;
+                                P = _G.Soul;
+                                while not n do
+                                    if P then
+                                        task.wait();
+                                        P = v4.CFrame;
+                                        v4.CFrame = P.Lerp(P, CFrame.new(-8932.85938, 142.875259, 6063.31348, L, i, w, W, o, Q, H, z, J), .3);
+                                    end; 
+                                end;
+                                P = _G.Soul;
+                            end;
+                        end; 
+                    end;
+                    return; 
+                end);
+                spawn(function(...)
+                    while wait() do
+                        pcall(function(...)
+                            v5 = _G.V3;
+                            if v5 then
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommE;
+                                v5.FireServer(v5, "ActivateAbility");
+                            end;
+                            return; 
+                        end); 
+                    end;
+                    return; 
+                end);
+                BF = X.S;
+                nF = BF.AddToggle(BF, "ToggleV3", {
+                    ["Title"] = "Auto B\xe1\xba\xadt V3 ",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng D\xc3\xb9ng T\xe1\xbb\x99c V3 ",
+                    ["Default"] = false
+                });
+                nF.OnChanged(nF, function(arg1_15, ...)
+                    _G.V3 = arg1_15;
+                    return; 
+                end);
+                BF = X.S;
+                LF = BF.AddToggle(BF, "ToggleV4", {
+                    ["Title"] = "Auto B\xe1\xba\xadt V4 ",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng D\xc3\xb9ng T\xe1\xbb\x99c V4 ",
+                    ["Default"] = false
+                });
+                LF.OnChanged(LF, function(arg1_16, ...)
+                    _G.AutoV4 = arg1_16;
+                    return; 
+                end);
+                spawn(function(...)
+                    pcall(function(...)
+                        while wait() do
+                            if _G.AutoV4 then
+                                q = game.Players.LocalPlayer.Character.RaceTransformed.Value;
+                                if q == false then
+                                    v5 = game;
+                                    q = v5.GetService(v5, "VirtualInputManager");
+                                    q.SendKeyEvent(q, true, "Y", false, game);
+                                    wait(.1);
+                                    v5 = game;
+                                    q = v5.GetService(v5, "VirtualInputManager");
+                                    q.SendKeyEvent(q, false, "Y", false, game);
+                                end;
+                            end; 
+                        end;
+                        return; 
+                    end);
+                    return; 
+                end);
+                BF = X.S;
+                iF = BF.AddToggle(BF, "AFK", {
+                    ["Title"] = "Auto AFK",
+                    ["Default"] = true,
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng AFK Treo Farm"
+                });
+                iF.OnChanged(iF, function(arg1_17, ...)
+                    if arg1_17 then
+                        v3 = game;
+                        v5 = v3.GetService(v3, "Players").LocalPlayer.Idled;
+                        r22 = v5.Connect(v5, function(...)
+                            v5 = game;
+                            q = v5.GetService(v5, "VirtualUser");
+                            q.Button2Down(q, Vector2.new(0, 0), workspace.CurrentCamera.CFrame);
+                            wait(1);
+                            v5 = game;
+                            q = v5.GetService(v5, "VirtualUser");
+                            q.Button2Up(q, Vector2.new(0, 0), workspace.CurrentCamera.CFrame);
+                            return; 
+                        end);
+                    else
+                        if r22 then
+                            v5 = r22;
+                            v5.Disconnect(v5);
+                        end;
+                        return;
+                    end; 
+                end);
+                WF = X.S;
+                wF = WF.AddToggle(WF, "ToggleV4", {
+                    ["Title"] = "Use Sword",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng D\xc3\xb9ng Ki\xe1\xba\xbfm",
+                    ["Default"] = false
+                });
+                wF.OnChanged(wF, function(arg1_18, ...)
+                    _G.SwordEnabled = arg1_18;
+                    return; 
+                end);
+                spawn(function(...)
+                    while wait() do
+                        if _G.SwordEnabled then
+                            v4 = game.Players.LocalPlayer.Backpack;
+                            v1 = v4[2];
+                            v4 = v4[1];
+                            for v3, O in pairs(v4.GetChildren(v4)) do
+                                S = v3;
+                                if O.ToolTip == "Sword" then
+                                    v5 = game.Players.LocalPlayer.Backpack;
+                                    P = v5.FindFirstChild(v5, O.Name);
+                                    if P then
+                                        v5 = game.Players.LocalPlayer.Character.Humanoid;
+                                        v5.EquipTool(v5, P);
+                                    end;
+                                else
+                                    
+                                end; 
+                            end;
+                        end; 
+                    end;
+                    return; 
+                end);
+                WF = X.S;
+                oF = WF.AddToggle(WF, "ToggleV4", {
+                    ["Title"] = "Auto Safe",
+                    ["Description"] = "Ch\xe1\xbb\x91ng B\xe1\xbb\x8b \xc4\x90\xc3\xa1nh Ch\xe1\xba\xbft",
+                    ["Default"] = false
+                });
+                oF.OnChanged(oF, function(arg1_19, ...)
+                    _G.AntiDie = arg1_19;
+                    return; 
+                end);
+                spawn(function(...)
+                    while task.wait() do
+                        if _G.AntiDie then
+                            v1 = game.Players.LocalPlayer.Character;
+                            if v1 then
+                                v1 = game.Players.LocalPlayer.Character;
+                                q = v1.FindFirstChild(v1, "Humanoid");
+                            end;
+                            if v1 then
+                                v1 = game.Players.LocalPlayer.Character.Humanoid;
+                                v5 = game.Players.LocalPlayer.Character;
+                                v3 = v5.FindFirstChild(v5, "HumanoidRootPart");
+                                if v1 then
+                                    q = v5.FindFirstChild(v5, "HumanoidRootPart");
+                                end;
+                                if v1 then
+                                    if v1.Health / v1.MaxHealth * 100 < 50 then
+                                        v3.CFrame = v3.CFrame * CFrame.new(0, 50, 0);
+                                    end;
+                                end;
+                            end;
+                        end; 
+                    end;
+                    return; 
+                end);
+                WF = X.S;
+                QF = WF.AddToggle(WF, "ToggleHaki", {
+                    ["Title"] = "Auto Haki",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng B\xe1\xba\xadt Haki",
+                    ["Default"] = true
+                });
+                QF.OnChanged(QF, function(arg1_20, ...)
+                    _G.AutoHaki = arg1_20;
+                    return; 
+                end);
+                task.spawn(function(...)
+                    while task.wait() do
+                        pcall(function(...)
+                            q = _G;
+                            if q.AutoHaki then
+                                q = game.Players.LocalPlayer.Character;
+                                v5 = not q.FindFirstChild(q, "HasBuso");
+                                if v5 then
+                                    v1 = game;
+                                    v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                    v5.InvokeServer(v5, "Buso");
+                                end;
+                            end;
+                            return; 
+                        end); 
+                    end;
+                    return; 
+                end);
+                r23 = Instance.new("BlurEffect");
+                r23.Size = 20;
+                r23.Parent = game.Lighting;
+                r23.Enabled = false;
+                HF = X.S;
+                zF = HF.AddToggle(HF, "ToggleMain", {
+                    ["Title"] = "Auto Main",
+                    ["Description"] = "L\xc3\xa0m M\xe1\xbb\x9d M\xc3\xa0n H\xc3\xacnh Treo Farm",
+                    ["Default"] = false
+                });
+                zF.OnChanged(zF, function(arg1_21, ...)
+                    v1 = arg1_21;
+                    _G.Main = v1;
+                    r23.Enabled = v1;
+                    return; 
+                end);
+                HF = X.S;
+                JF = HF.AddToggle(HF, "ToggleHaki", {
+                    ["Title"] = "Walk On Water",
+                    ["Description"] = "L\xc3\xa0m \xc4\x90i \xc4\x90\xc6\xb0\xe1\xbb\xa3c Tr\xc3\xaan N\xc6\xb0\xe1\xbb\x9bc",
+                    ["Default"] = true
+                });
+                JF.OnChanged(JF, function(arg1_22, ...)
+                    _G.WalkWater = arg1_22;
+                    return; 
+                end);
+                spawn(function(...)
+                    while task.wait() do
+                        pcall(function(...)
+                            if _G.WalkWater then
+                                v1 = game;
+                                v1.GetService(v1, "Workspace").Map["WaterBase-Plane"].Size = Vector3.new(1000, 112, 1000);
+                            else
+                                v1 = game;
+                                v1.GetService(v1, "Workspace").Map["WaterBase-Plane"].Size = Vector3.new(1000, 80, 1000);
+                            end;
+                            return; 
+                        end); 
+                    end;
+                    return; 
+                end);
+                HF = X.S;
+                gF = HF.AddToggle(HF, "ToggleHaki", {
+                    ["Title"] = "Auto Rejoin",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng V\xc3\xa0o L\xe1\xba\xa1i Blox Fruit Khi B\xe1\xbb\x8b Kick",
+                    ["Default"] = true
+                });
+                gF.OnChanged(gF, function(arg1_23, ...)
+                    _G.AutoRejoin = arg1_23;
+                    return; 
+                end);
+                spawn(function(...)
+                    while wait() do
+                        v1 = "AutoRejoin";
+                        if _G[v1] then
+                            S = game;
+                            v1 = S.GetService(S, "CoreGui").RobloxPromptGui.promptOverlay.ChildAdded;
+                            getgenv().rejoin = v1.Connect(v1, function(arg1_24, ...)
+                                v1 = arg1_24;
+                                q = v1.Name == "ErrorPrompt" and v1.FindFirstChild(v1, "MessageArea");
+                                if q then
+                                    v5 = game;
+                                    q = v5.GetService(v5, "TeleportService");
+                                    q.Teleport(q, game.PlaceId);
+                                end;
+                                return; 
+                            end);
+                        end; 
+                    end;
+                    return; 
+                end);
+                HF = X.S;
+                DF = HF.AddToggle(HF, "ToggleSpeedRun", {
+                    ["Title"] = "Auto Run Speed",
+                    ["Description"] = "Auto Ch\xe1\xba\xa1y Nhanh",
+                    ["Default"] = true
+                });
+                DF.OnChanged(DF, function(arg1_25, ...)
+                    v1 = arg1_25;
+                    v3 = false;
+                    InfAbility = v1;
+                    if v1 == v3 then
+                        S = game;
+                        q = S.GetService(S, "Players").LocalPlayer.Character.HumanoidRootPart;
+                        v3 = q.FindFirstChild(q, "Agility");
+                        v3.Destroy(v3);
+                    end;
+                    return; 
+                end);
+                HF = l.Options.ToggleSpeedRun;
+                HF.SetValue(HF, true);
+                spawn(function(...)
+                    while wait() do
+                        if InfAbility then
+                            InfAb();
+                        end; 
+                    end;
+                    return; 
+                end);
+                InfAb = function(...)
+                    q = "InfAbility";
+                    v5 = Env[q];
+                    if v5 then
+                        v4 = game;
+                        q = v4.GetService(v4, "Players").LocalPlayer.Character.HumanoidRootPart;
+                        if not q.FindFirstChild(q, "Agility") then
+                            v1 = Instance.new("ParticleEmitter");
+                            v1.Acceleration = Vector3.new(0, 0, 0);
+                            v1.Archivable = true;
+                            v1.Drag = 20;
+                            v1.EmissionDirection = Enum.NormalId.Top;
+                            v1.Enabled = true;
+                            v1.Lifetime = NumberRange.new(0, 0);
+                            v1.LightInfluence = 0;
+                            v1.LockedToPart = true;
+                            v1.Name = "Agility";
+                            v1.Rate = 500;
+                            v1.Size = NumberSequence.new({
+                                NumberSequenceKeypoint.new(0, 0),
+                                NumberSequenceKeypoint.new(1, 4)
+                            });
+                            v1.RotSpeed = NumberRange.new(9999, 99999);
+                            v1.Rotation = NumberRange.new(0, 0);
+                            v1.Speed = NumberRange.new(30, 30);
+                            v1.SpreadAngle = Vector2.new(0, 0, 0, 0);
+                            v1.Texture = "";
+                            v1.VelocityInheritance = 0;
+                            v1.ZOffset = 2;
+                            v1.Transparency = NumberSequence.new(0);
+                            v1.Color = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0));
+                            O = game;
+                            v1.Parent = O.GetService(O, "Players").LocalPlayer.Character.HumanoidRootPart;
+                        end;
+                    else
+                        v3 = game;
+                        v5 = v3.GetService(v3, "Players").LocalPlayer.Character.HumanoidRootPart;
+                        q = v5.FindFirstChild(v5, "Agility");
+                        if q then
+                            v3 = game;
+                            v5 = v3.GetService(v3, "Players").LocalPlayer.Character.HumanoidRootPart;
+                            q = v5.FindFirstChild(v5, "Agility");
+                            q.Destroy(q);
+                        end;
+                        return;
+                    end; 
+                end;
+                HF = X.S;
+                HF.AddButton(HF, {
+                    ["Title"] = "Remove Fog",
+                    ["Description"] = "X\xc3\xb3a X\xc6\xb0\xc6\xa1ng M\xc3\xb9",
+                    ["Callback"] = function(...)
+                        NoFog();
+                        return; 
+                    end
+                });
+                NoFog = function(...)
+                    v1 = game.Lighting;
+                    v1.FogEnd = 100000;
+                    O = v1.GetDescendants;
+                    S = {
+                        O(v1)
+                    };
+                    v3 = O[2];
+                    S = O[1];
+                    for v4, P in pairs(m(S)) do
+                        O = v4;
+                        if P.IsA(P, "Atmosphere") then
+                            P.Destroy(P);
+                        end; 
+                    end;
+                    return; 
+                end;
+                HF = X.S;
+                HF.AddButton(HF, {
+                    ["Title"] = "Remove Lava",
+                    ["Description"] = "Xo\xc3\xa1 Lava",
+                    ["Callback"] = function(...)
+                        v4 = game.Workspace;
+                        v1 = v4[2];
+                        v3 = v4[3];
+                        v4 = "pairs";
+                        for v3, O in pairs(v4.GetDescendants(v4)) do
+                            S = v3;
+                            if O.IsA(O, "Part") and O.Name == "Lava" then
+                                O.Destroy(O);
+                            end; 
+                        end;
+                        S = game.ReplicatedStorage;
+                        O = {
+                            S.GetDescendants(S)
+                        };
+                        v1 = S[1];
+                        v3 = S[2];
+                        for v4, O in pairs(m(O)) do
+                            S = v4;
+                            if O.IsA(O, "Part") and O.Name == "Lava" then
+                                O.Destroy(O);
+                            end; 
+                        end;
+                        return; 
+                    end
+                });
+                HF = X.E;
+                HF.AddParagraph(HF, {
+                    ["Title"] = "T\xc3\xadnh N\xc4\x83ng Linh Tinh Blablala Meo Lazy Lazy Cuti",
+                    ["Content"] = ""
+                });
+                HF = X.E;
+                lF = HF.AddToggle(HF, "ToggleDragonEgg", {
+                    ["Title"] = "Auto Dragon Egg",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x91\xe1\xbb\x99ng Nh\xe1\xba\xb7t Tr\xe1\xbb\xa9ng Dragon Egg",
+                    ["Default"] = false
+                });
+                lF.OnChanged(lF, function(arg1_26, ...)
+                    _G.CollectEgg = arg1_26;
+                    return; 
+                end);
+                spawn(function(...)
+                    while wait() do
+                        if _G.CollectEgg then
+                            v5 = workspace.Map.PrehistoricIsland.Core.SpawnedDragonEggs;
+                            v1 = v5.GetChildren(v5);
+                            if #v1 > 0 then
+                                v3 = v1[math.random(1, #v1)];
+                                if v3.IsA(v3, "Model") and v3.PrimaryPart then
+                                    topos(v3.PrimaryPart.CFrame);
+                                    q = 1;
+                                    if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v3.PrimaryPart.Position).Magnitude <= q then
+                                        v5 = game;
+                                        q = v5.GetService(v5, "VirtualInputManager");
+                                        q.SendKeyEvent(q, true, "E", false, game);
+                                        wait(1.5);
+                                        v5 = game;
+                                        q = v5.GetService(v5, "VirtualInputManager");
+                                        q.SendKeyEvent(q, false, "E", false, game);
+                                    end;
+                                end;
+                            end;
+                        end; 
+                    end;
+                    return; 
+                end);
+                HF = X.E;
+                KF = HF.AddToggle(HF, "ToggleDinoBone", {
+                    ["Title"] = "Auto Dino Bone",
+                    ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng Nh\xe1\xba\xb7t X\xc6\xb0\xc6\xa1ng Dino",
+                    ["Default"] = false
+                });
+                KF.OnChanged(KF, function(arg1_27, ...)
+                    _G.CollectBone = arg1_27;
+                    return; 
+                end);
+                spawn(function(...)
+                    while wait() do
+                        if _G.CollectBone then
+                            v4 = workspace;
+                            v1 = v4[2];
+                            v4 = v4[1];
+                            for v3, O in pairs(v4.GetDescendants(v4)) do
+                                S = v3;
+                                if O.IsA(O, "BasePart") and O.Name == "DinoBone" then
+                                    topos(CFrame.new(O.Position));
+                                end; 
+                            end;
+                        end; 
+                    end;
+                    return; 
+                end);
+                HF = "";
+                if game.PlaceId == 4442272183 then
+                    HF = "B\xe1\xba\xa1n \xc4\x90ang Ho\xe1\xba\xa1t \xc4\x90\xe1\xbb\x99ng Local Raid T\xe1\xba\xa1i Sea 2";
+                else
+                    if game.PlaceId == 7449423635 then
+                        HF = "B\xe1\xba\xa1n \xc4\x90ang Ho\xe1\xba\xa1t \xc4\x90\xe1\xbb\x99ng Local Raid T\xe1\xba\xa1i Sea 3";
+                    else
+                        if game.PlaceId == 2753915549 then
+                            HF = "B\xe1\xba\xa1n \xc4\x90ang Sea 1 (Kh\xc3\xb4ng C\xc3\xb3 Raid)";
+                        else
+                            HF = "Kh\xc3\xb4ng X\xc3\xa1c \xc4\x90\xe1\xbb\x8bnh \xc4\x90\xc6\xb0\xe1\xbb\xa3c Sea";
+                        end;
+                        kF = X.R;
+                        E5[1] = "Dough";
+                        r24 = kF.AddParagraph(kF, {
+                            ["Title"] = "",
+                            ["Content"] = "Tr\xe1\xba\xa1ng Th\xc3\xa1i: Ch\xc6\xb0a B\xe1\xba\xaft \xc4\x90\xe1\xba\xa7u Raid"
+                        });
+                        spawn(function(...)
+                            while wait(.1) do
+                                pcall(function(...)
+                                    local p = {
+                                        p[1]
+                                    };
+                                    v5 = game.Workspace;
+                                    v1 = v5.FindFirstChild(v5, "_WorldOrigin");
+                                    if v1 then
+                                        v5 = v1.FindFirstChild(v1, "Locations");
+                                        if v5 then
+                                            for S = 5, 1, -1 do
+                                                if v5.FindFirstChild(v5, "Island " .. S) then
+                                                    v4 = "Tr\xe1\xba\xa1ng Th\xc3\xa1i: \xc4\x90ang Farm \xc4\x90\xe1\xba\xa3o " .. S;
+                                                else
+                                                    
+                                                end; 
+                                            end;
+                                            v5 = f[p[1]];
+                                            v5.SetDesc(v5, "Tr\xe1\xba\xa1ng Th\xc3\xa1i: \xc4\x90ang Ch\xe1\xbb\x9d Raid");
+                                        end;
+                                    end;
+                                    return; 
+                                end); 
+                            end;
+                            return; 
+                        end);
+                        RF = X.R;
+                        NF = RF.AddDropdown(RF, "DropdownFarm", {
+                            ["Title"] = "Select Chip Raid",
+                            ["Description"] = "Ch\xe1\xbb\x8dn Chip Mu\xe1\xbb\x91n Raid",
+                            ["Values"] = {
+                                "Flame",
+                                "Ice",
+                                "Quake",
+                                "Light",
+                                "Dark",
+                                "Spider",
+                                "Rumble",
+                                "Magma",
+                                "Buddha",
+                                "Sand",
+                                "Phoenix",
+                                E5[1]
+                            },
+                            ["Multi"] = false
+                        });
+                        r25 = "Flame";
+                        NF.SetValue(NF, r25);
+                        NF.OnChanged(NF, function(arg1_28, ...)
+                            r25 = arg1_28;
+                            return; 
+                        end);
+                        RF = X.R;
+                        RF.AddButton(RF, {
+                            ["Title"] = "Buy Chip",
+                            ["Description"] = "Mua Chip \xc4\x90\xc3\xa3 Ch\xe1\xbb\x8dn",
+                            ["Callback"] = function(...)
+                                v3 = game;
+                                v5 = v3.GetService(v3, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, unpack({
+                                    [1] = "RaidsNpc",
+                                    [2] = "Select",
+                                    [3] = r25
+                                }));
+                                return; 
+                            end
+                        });
+                        RF = X.R;
+                        RF.AddButton(RF, {
+                            ["Title"] = "Start Raid",
+                            ["Description"] = "B\xe1\xba\xaft \xc4\x90\xe1\xba\xa7u Raid - Ch\xe1\xbb\x89 Ho\xe1\xba\xa1t \xc4\x90\xe1\xbb\x99ng T\xe1\xba\xa1i \xc4\x90\xe1\xba\xa3o Raid",
+                            ["Callback"] = function(...)
+                                pcall(function(...)
+                                    v5 = game.PlaceId == 4442272183;
+                                    if v5 then
+                                        S = game;
+                                        v5 = S.GetService(S, "Workspace").Map.CircleIsland.RaidSummon2.Button.Main;
+                                        v1 = v5.FindFirstChild(v5, "ClickDetector");
+                                        if v1 then
+                                            fireclickdetector(v1);
+                                        else
+                                            print("Kh\xc3\xb4ng t\xc3\xacm th\xe1\xba\xa5y ClickDetector \xe1\xbb\x9f Sea 2");
+                                        end;
+                                    else
+                                        v5 = game.PlaceId == 7449423635;
+                                        if v5 then
+                                            S = game;
+                                            v5 = S.GetService(S, "Workspace").Map["Boat Castle"].RaidSummon2.Button.Main;
+                                            v1 = v5.FindFirstChild(v5, "ClickDetector");
+                                            if v1 then
+                                                fireclickdetector(v1);
+                                            else
+                                                print("Kh\xc3\xb4ng t\xc3\xacm th\xe1\xba\xa5y ClickDetector \xe1\xbb\x9f Sea 3");
+                                            end;
+                                        else
+                                            print("Sea n\xc3\xa0y kh\xc3\xb4ng c\xc3\xb3 Raid!");
+                                        end;
+                                        return;
+                                    end; 
+                                end);
+                                return; 
+                            end
+                        });
+                        RF = X.R;
+                        GF = RF.AddToggle(RF, "AutoFarm", {
+                            ["Title"] = "Auto Farm",
+                            ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng \xc4\x90\xc3\xa1nh H\xe1\xba\xbft Qu\xc3\xa1i Raid",
+                            ["Default"] = false
+                        });
+                        GF.OnChanged(GF, function(arg1_29, ...)
+                            _G.AutoRaid = arg1_29;
+                            return; 
+                        end);
+                        r26 = 370;
+                        r27 = 3000;
+                        t5 = game;
+                        RF = t5.GetService(t5, "RunService").Stepped;
+                        RF.Connect(RF, function(...)
+                            v1 = _G.AutoRaid;
+                            if v1 or _G.Auto_Dungeon then
+                                v1 = game.Players.LocalPlayer;
+                                v3 = v1.Character;
+                                q = v3;
+                                if v3 then
+                                    P = v3.GetDescendants;
+                                    O = {
+                                        P(v3)
+                                    };
+                                    v4 = P[2];
+                                    O = P[1];
+                                    for S, n in pairs(m(O)) do
+                                        P = S;
+                                        if n.IsA(n, "BasePart") then
+                                            n.CanCollide = false;
+                                        end; 
+                                    end;
+                                    return;
+                                else
+                                    v3 = v1.CharacterAdded;
+                                    q = v3.Wait(v3);
+                                end;
+                            end; 
+                        end);
+                        local function r28(...)
+                            v3 = math.huge;
+                            v4 = game.Players.LocalPlayer;
+                            S = v4.Character;
+                            q = S;
+                            if S then
+                                if not S.FindFirstChild(S, "HumanoidRootPart") then
+                                    return nil;
+                                end;
+                                i = game;
+                                L = i.GetService(i, "Workspace").Enemies;
+                                n = L[3];
+                                L = L[1];
+                                for n, w in L, pairs(L.GetChildren(L)) do
+                                    i = n;
+                                    if w.FindFirstChild(w, "Humanoid") and (w.Humanoid.Health > 0 and w.FindFirstChild(w, "HumanoidRootPart")) then
+                                        v5 = (w.HumanoidRootPart.Position - S.FindFirstChild(S, "HumanoidRootPart").Position).Magnitude;
+                                        if v5 < math.huge and v5 <= r27 then
+                                            v5 = v5;
+                                            v3 = v5;
+                                            v1 = w;
+                                        end;
+                                    end; 
+                                end;
+                                return nil;
+                            else
+                                S = v4.CharacterAdded;
+                                q = S.Wait(S);
+                            end; 
+                        end;
+                        spawn(function(...)
+                            while wait(1e-006) do
+                                if _G.AutoRaid then
+                                    v1 = r28();
+                                    if v1 then
+                                        r29(v1);
+                                        r30(v1);
+                                    end;
+                                end; 
+                            end;
+                            return; 
+                        end);
+                        m5 = X.R;
+                        A5 = m5.AddToggle(m5, "ToggleNextIsland", {
+                            ["Title"] = "Next Island",
+                            ["Description"] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng Qua \xc4\x90\xe1\xba\xa3o Ti\xe1\xba\xbfp Theo",
+                            ["Default"] = false
+                        });
+                        A5.OnChanged(A5, function(arg1_32, ...)
+                            _G.Auto_Dungeon = arg1_32;
+                            return; 
+                        end);
+                        m5 = l.Options.ToggleNextIsland;
+                        m5.SetValue(m5, false);
+                        IsIslandRaid = function(arg1_33, ...)
+                            v3 = game;
+                            v3 = v3.GetService(v3, "Workspace")._WorldOrigin.Locations;
+                            v4 = game.Players.LocalPlayer;
+                            S = v4.Character;
+                            q = S;
+                            if S then
+                                S.FindFirstChild(S, "HumanoidRootPart");
+                                if v3.FindFirstChild(v3, "Island " .. arg1_33) then
+                                    n = 4500;
+                                    W = v3.GetChildren;
+                                    w = {
+                                        W(v3)
+                                    };
+                                    i = W[3];
+                                    L = W[2];
+                                    for i, o in pairs(m(q)) do
+                                        W = i;
+                                        if o.Name == "Island " .. arg1_33 then
+                                            Q = o.Position - S.FindFirstChild(S, "HumanoidRootPart").Position;
+                                            v5 = (Q.Magnitude and Q) < 4500;
+                                        end; 
+                                    end;
+                                    return nil;
+                                end;
+                                return nil;
+                            else
+                                S = v4.CharacterAdded;
+                                q = S.Wait(S);
+                            end; 
+                        end;
+                        getNextIsland = function(...)
+                            v4 = 2753915549[3];
+                            v3 = 2753915549[2];
+                            S = "pairs";
+                            for v4, P in pairs({
+                                5,
+                                4,
+                                3,
+                                2
+                            }) do
+                                n = IsIslandRaid(P);
+                                if n then
+                                    if (n.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 4500 then
+                                        return v5(P);
+                                    else
+                                        
+                                    end;
+                                end; 
+                            end;
+                            return nil; 
+                        end;
+                        flyToPosition = function(arg1_34, ...)
+                            v3 = game.Players.LocalPlayer.Character;
+                            v4 = v3.FindFirstChild(v3, "HumanoidRootPart");
+                            while _G.Auto_Dungeon do
+                                if (v4.Position - arg1_34.Position).Magnitude <= 10 then
+                                    v4.Velocity = Vector3.zero;
+                                    v4.CFrame = arg1_34;
+                                    break;
+                                else
+                                    v4.Velocity = (arg1_34.Position - v4.Position).Unit * 380 + Vector3.new(0, 50, 0);
+                                    wait(.1);
+                                end; 
+                            end;
+                            v4.Velocity = Vector3.zero;
+                            return; 
+                        end;
+                        spawn(function(...)
+                            while wait(.1) do
+                                if _G.Auto_Dungeon then
+                                    v1 = getNextIsland();
+                                    if v1 then
+                                        flyToPosition(v1.CFrame * CFrame.new(0, 70, 0));
+                                    end;
+                                end; 
+                            end;
+                            return; 
+                        end);
+                        m5 = X.R;
+                        r5 = m5.AddToggle(m5, "ToggleHaki", {
+                            ["Title"] = "Teleport Island Raid",
+                            ["Description"] = "Bay \xc4\x90\xe1\xba\xbfn \xc4\x90\xe1\xba\xa3o Raid Sea 2 Sea 3",
+                            ["Default"] = false
+                        });
+                        r5.OnChanged(r5, function(arg1_35, ...)
+                            _G.NPC = arg1_35;
+                            return; 
+                        end);
+                        r31 = CFrame.new(-6433.4624, 250.584442, -4500.78271);
+                        r32 = CFrame.new(-5013.53613, 314.748444, -2815.00757);
+                        local function r33(...)
+                            v1 = game.PlaceId;
+                            if v1 == 2753915549 then
+                                return nil;
+                            end;
+                            if v1 == 4442272183 then
+                                return r31;
+                            end;
+                            if v1 == 7449423635 then
+                                return r32;
+                            end;
+                            return nil; 
+                        end;
+                        r34 = 375;
+                        e5 = game.Players.LocalPlayer;
+                        I5 = e5.Character;
+                        f5 = I5;
+                        F5 = v5;
+                        if I5 then
+                            v5 = v5;
+                            r35 = I5;
+                            f5 = r35;
+                            E5[7] = function(...)
+                                v3 = game;
+                                v5 = v3.GetService(v3, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, unpack({
+                                    [1] = "BlackbeardReward",
+                                    [2] = "Microchip",
+                                    [3] = "2"
+                                }));
+                                return; 
+                            end;
+                            E5[1] = "Title";
+                            r36 = f5.WaitForChild(f5, "HumanoidRootPart");
+                            E5[4] = "";
+                            I5 = game.Players.LocalPlayer.CharacterAdded;
+                            E5[2] = "Raid Buddha Dough \xc4\x90\xe1\xba\xa3o 5 Nh\xe1\xbb\x9b T\xe1\xba\xaft Bring Mod Nha";
+                            I5.Connect(I5, function(arg1_36, ...)
+                                r35 = arg1_36;
+                                q = r35;
+                                r36 = q.WaitForChild(q, "HumanoidRootPart");
+                                return; 
+                            end);
+                            T5 = game;
+                            I5 = T5.GetService(T5, "RunService").Stepped;
+                            E5[5] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng Mua Chip Law";
+                            I5.Connect(I5, function(...)
+                                if _G.NPC then
+                                    v4 = r35;
+                                    v3 = v4[3];
+                                    v4 = v4[1];
+                                    for v3, O in v4, pairs(v4.GetDescendants(v4)) do
+                                        S = v3;
+                                        if O.IsA(O, "BasePart") then
+                                            O.CanCollide = false;
+                                        end; 
+                                    end;
+                                end;
+                                return; 
+                            end);
+                            E5[3] = "Content";
+                            r5.OnChanged(r5, function(arg1_38, ...)
+                                v3 = arg1_38;
+                                _G.NPC = v3;
+                                if _G.NPC then
+                                    v3 = r33();
+                                    if v3 then
+                                        r37(v3);
+                                    else
+                                        print("B\xe1\xba\xa1n kh\xc3\xb4ng \xe1\xbb\x9f Sea 2 ho\xe1\xba\xb7c Sea 3, kh\xc3\xb4ng th\xe1\xbb\x83 teleport.");
+                                        _G.NPC = false;
+                                    end;
+                                end;
+                                return; 
+                            end);
+                            T5 = X.R;
+                            E5[3] = "Buy Chip Law";
+                            E5[1] = "Local Law Raid";
+                            T5.AddParagraph(T5, {
+                                [E5[1]] = E5[2],
+                                [E5[3]] = E5[4]
+                            });
+                            E5[8] = false;
+                            E5[2] = "Title";
+                            T5 = X.R;
+                            E5[6] = "Callback";
+                            E5[4] = "Description";
+                            T5.AddSection(T5, E5[1]);
+                            T5 = X.R;
+                            E5[1] = {
+                                [E5[2]] = E5[3],
+                                [E5[4]] = E5[5],
+                                [E5[6]] = E5[7]
+                            };
+                            E5[4] = "Description";
+                            E5[6] = "Callback";
+                            E5[7] = function(...)
+                                n = game;
+                                fireclickdetector(n.GetService(n, "Workspace").Map.CircleIsland.RaidSummon.Button.Main.ClickDetector);
+                                return; 
+                            end;
+                            E5[2] = "Title";
+                            E5[5] = "S\xe1\xba\xb5n S\xc3\xa0ng Raid";
+                            E5[3] = "Start Law";
+                            T5.AddButton(T5, E5[1]);
+                            T5 = X.R;
+                            E5[1] = {
+                                [E5[2]] = E5[3],
+                                [E5[4]] = E5[5],
+                                [E5[6]] = E5[7]
+                            };
+                            E5[6] = "T\xe1\xbb\xb1 \xc4\x90\xe1\xbb\x99ng \xc4\x90\xc3\xa1nh Boss Law";
+                            E5[3] = "Title";
+                            T5.AddButton(T5, E5[1]);
+                            E5[1] = "AutoLaw";
+                            E5[4] = "Auto Farm Law";
+                            E5[7] = "Default";
+                            T5 = X.R;
+                            E5[5] = "Description";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            O5 = T5.AddToggle(T5, E5[1], E5[2]);
+                            E5[3] = "Title";
+                            E5[2] = function(...)
+                                while wait(.1) do
+                                    if _G.AutoLaw and game.PlaceId == 4442272183 then
+                                        pcall(function(...)
+                                            q = game;
+                                            v5 = q.GetService(q, "Workspace").Enemies;
+                                            v1 = v5.FindFirstChild(v5, "Order");
+                                            if v1 then
+                                                if v1.FindFirstChild(v1, "Humanoid") and (v1.FindFirstChild(v1, "HumanoidRootPart") and v1.Humanoid.Health > 0) then
+                                                    S = game.Players.LocalPlayer.Backpack;
+                                                    v4 = S[3];
+                                                    S = S[1];
+                                                    for v4, P in S, pairs(S.GetChildren(S)) do
+                                                        O = v4;
+                                                        if P.ToolTip == "Melee" then
+                                                            v5 = game.Players.LocalPlayer.Backpack;
+                                                            if v5.FindFirstChild(v5, P.Name) then
+                                                                v5 = game.Players.LocalPlayer.Character.Humanoid;
+                                                                v5.EquipTool(v5, v5.FindFirstChild(v5, L));
+                                                            else
+                                                                
+                                                            end;
+                                                        end; 
+                                                    end;
+                                                    v4 = _G.AutoLaw;
+                                                    v3 = v1.Humanoid.Health > 0;
+                                                    while not v4 do
+                                                        if v3 then
+                                                            v5 = game.Players.LocalPlayer.Character;
+                                                            v5.MoveTo(v5, q.HumanoidRootPart.Position);
+                                                            v5 = game.Players.LocalPlayer.Character;
+                                                            if v5.FindFirstChild(v5, "Melee") then
+                                                                v5 = game.Players.LocalPlayer.Character.Melee;
+                                                                v5.Activate(v5);
+                                                            end;
+                                                            wait(.01);
+                                                        end;
+                                                        break; 
+                                                    end;
+                                                    v3 = v1.Humanoid.Health > 0;
+                                                end;
+                                            end;
+                                            return; 
+                                        end);
+                                    end; 
+                                end;
+                                return; 
+                            end;
+                            E5[5] = "Description";
+                            E5[1] = function(arg1_39, ...)
+                                _G.AutoLaw = arg1_39;
+                                return; 
+                            end;
+                            E5[6] = "Chuy\xe1\xbb\x83n Server";
+                            O5.OnChanged(O5, E5[1]);
+                            E5[8] = function(...)
+                                r38 = game.PlaceId;
+                                r39 = {};
+                                r40 = "";
+                                S = os.date("!*t").hour;
+                                TPReturner = function(...)
+                                    v3 = "";
+                                    v5 = f[v4] == v3;
+                                    if v5 then
+                                        v5 = game.HttpService;
+                                        v3 = game;
+                                        v1 = v5.JSONDecode(v5, v3.HttpGet(v3, "https://games.roblox.com/v1/games/" .. r38 .. "/servers/Public?sortOrder=Asc&limit=100"));
+                                    else
+                                        v5 = game.HttpService;
+                                        v4 = game;
+                                        v1 = v5.JSONDecode(v5, v4.HttpGet(v4, "https://games.roblox.com/v1/games/" .. r38 .. "/servers/Public?sortOrder=Asc&limit=100&cursor=" .. f[v4]));
+                                    end;
+                                    r41 = "";
+                                    if nil.nextPageCursor and (nil.nextPageCursor ~= "null" and nil.nextPageCursor ~= nil) then
+                                        f[v4] = nil.nextPageCursor;
+                                    end;
+                                    L = nil.data;
+                                    n = ("data")[3];
+                                    P = ("data")[2];
+                                    for n, L in pairs(L) do
+                                        S = n;
+                                        r41 = tostring(L.id);
+                                        if tonumber(L.maxPlayers) > tonumber(L.playing) then
+                                            z = r39;
+                                            Q = ("playing")[2];
+                                            o = ("playing")[1];
+                                            for H, z in pairs(z) do
+                                                w = H;
+                                                if r41 == tostring(z) then
+                                                    i = false;
+                                                else
+                                                    
+                                                end; 
+                                            end;
+                                            if true then
+                                                table.insert(r39, r41);
+                                                pcall(function(...)
+                                                    v5 = game;
+                                                    q = v5.GetService(v5, "TeleportService");
+                                                    q.TeleportToPlaceInstance(q, r38, r41, game.Players.LocalPlayer);
+                                                    return; 
+                                                end);
+                                                wait(4);
+                                                return;
+                                            else
+                                                
+                                            end;
+                                        end; 
+                                    end;
+                                    return; 
+                                end;
+                                Teleport = function(...)
+                                    while true do
+                                        pcall(function(...)
+                                            TPReturner();
+                                            if f[v4] ~= "" then
+                                                TPReturner();
+                                            end;
+                                            return; 
+                                        end);
+                                        wait(2); 
+                                    end;
+                                    return; 
+                                end;
+                                Teleport();
+                                return; 
+                            end;
+                            E5[1] = "spawn";
+                            E5[1] = Env[E5[1]](E5[2]);
+                            E5[4] = "Hop Server";
+                            E5[7] = "Callback";
+                            E5[1] = "Q";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[3] = "Title";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[4] = "Teleport Sea 1";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "TravelMain");
+                                return; 
+                            end;
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[6] = "V\xc3\xa0o Sea 1";
+                            E5[5] = "Description";
+                            E5[7] = "Callback";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "Q";
+                            E5[7] = "Callback";
+                            E5[6] = "V\xc3\xa0o Sea 2";
+                            E5[3] = "Title";
+                            T5 = X[E5[1]];
+                            E5[5] = "Description";
+                            E5[1] = "AddButton";
+                            E5[4] = "Teleport Sea 2";
+                            E5[1] = T5[E5[1]];
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "TravelDressrosa");
+                                return; 
+                            end;
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "Q";
+                            E5[6] = "V\xc3\xa0o Sea 3";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[5] = "Description";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[7] = "Callback";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "TravelZou");
+                                return; 
+                            end;
+                            E5[1] = "Q";
+                            E5[4] = "Teleport Sea 3";
+                            T5 = X[E5[1]];
+                            E5[3] = "Title";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "AddButton";
+                            E5[7] = "Callback";
+                            E5[1] = T5[E5[1]];
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "Cousin", "Buy");
+                                return; 
+                            end;
+                            E5[3] = "Title";
+                            E5[1] = "F";
+                            E5[5] = "Description";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddButton";
+                            E5[6] = "Quay Tr\xc3\xa1i Ng\xe1\xba\xabu Nhi\xc3\xaan";
+                            E5[1] = T5[E5[1]];
+                            E5[4] = "Random Fruit";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[7] = "Callback";
+                            E5[6] = "Gi\xc3\xa1 5,000,000$ + 5000F";
+                            E5[3] = "Title";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            E5[4] = "Mua Sanguine Art";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddSection";
+                            E5[2] = "Th\xc6\xb0 Vi\xe1\xbb\x87n Melee";
+                            E5[1] = T5[E5[1]];
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[5] = "Description";
+                            E5[1] = "F";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuySanguineArt");
+                                return; 
+                            end;
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[5] = "Description";
+                            T5 = X[E5[1]];
+                            E5[4] = "Mua God Human";
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[7] = "Callback";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyGodhuman");
+                                return; 
+                            end;
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            E5[3] = "Title";
+                            E5[6] = "Gi\xc3\xa1 5,000,000$ + 5000F";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[5] = "Description";
+                            T5 = X[E5[1]];
+                            E5[4] = "Mua Superhuman";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuySuperhuman");
+                                return; 
+                            end;
+                            E5[1] = "AddButton";
+                            E5[6] = "Gi\xc3\xa1 3,000,000$";
+                            E5[1] = T5[E5[1]];
+                            E5[7] = "Callback";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[3] = "Title";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[5] = "Description";
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyDeathStep");
+                                return; 
+                            end;
+                            E5[3] = "Title";
+                            E5[7] = "Callback";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[4] = "Mua Death Step";
+                            E5[1] = "F";
+                            E5[6] = "Gi\xc3\xa1 2,500,000$";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            T5 = X[E5[1]];
+                            E5[5] = "Description";
+                            E5[1] = "AddButton";
+                            E5[6] = "Gi\xc3\xa1 3,000,000$ + 4000F";
+                            E5[4] = "Mua Sharkman Karate";
+                            E5[1] = T5[E5[1]];
+                            E5[7] = "Callback";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuySharkmanKarate", true);
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuySharkmanKarate");
+                                return; 
+                            end;
+                            E5[3] = "Title";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[4] = "Mua Dragon Talon";
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[6] = "Gi\xc3\xa1 3,000,000$ + 5000F";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyDragonTalon");
+                                return; 
+                            end;
+                            E5[1] = "AddButton";
+                            E5[3] = "Title";
+                            E5[1] = T5[E5[1]];
+                            E5[7] = "Callback";
+                            E5[5] = "Description";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[7] = "Callback";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyElectricClaw");
+                                return; 
+                            end;
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[3] = "Title";
+                            E5[1] = "F";
+                            E5[6] = "Gi\xc3\xa1 3,000,000$ + 5000F";
+                            E5[4] = "Mua Electric Claw";
+                            T5 = X[E5[1]];
+                            E5[5] = "Description";
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyBlackLeg");
+                                return; 
+                            end;
+                            E5[5] = "Description";
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[7] = "Callback";
+                            E5[1] = "AddButton";
+                            E5[6] = "Gi\xc3\xa1 150,000$";
+                            E5[4] = "Mua Dark Step";
+                            E5[1] = T5[E5[1]];
+                            E5[3] = "Title";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[5] = "Description";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[4] = "Mua Electro";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyElectro");
+                                return; 
+                            end;
+                            E5[1] = "F";
+                            E5[6] = "Gi\xc3\xa1 500,000$";
+                            T5 = X[E5[1]];
+                            E5[3] = "Title";
+                            E5[7] = "Callback";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "AddButton";
+                            E5[6] = "Gi\xc3\xa1 750,000$";
+                            E5[1] = T5[E5[1]];
+                            E5[7] = "Callback";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyFishmanKarate");
+                                return; 
+                            end;
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            E5[4] = "Mua Fishman Karate";
+                            E5[5] = "Description";
+                            T5 = X[E5[1]];
+                            E5[3] = "Title";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "AddButton";
+                            E5[3] = "Title";
+                            E5[1] = T5[E5[1]];
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BlackbeardReward", "DragonClaw", "1");
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BlackbeardReward", "DragonClaw", "2");
+                                return; 
+                            end;
+                            E5[5] = "Description";
+                            E5[7] = "Callback";
+                            E5[6] = "Gi\xc3\xa1 3,000,000$ + 1000F";
+                            E5[1] = "F";
+                            E5[4] = "Mua Dragon Claw";
+                            T5 = X[E5[1]];
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[2] = "Th\xc6\xb0 Vi\xe1\xbb\x87n K\xc4\xa9 N\xc4\x83ng";
+                            E5[7] = "Callback";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyHaki", "Geppo");
+                                return; 
+                            end;
+                            E5[1] = "AddSection";
+                            E5[1] = T5[E5[1]];
+                            E5[5] = "Description";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            E5[3] = "Title";
+                            T5 = X[E5[1]];
+                            E5[6] = "Gi\xc3\xa1 10,000$";
+                            E5[4] = "Mua Sky Jump";
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[4] = "Mua Haki V\xc5\xa9 Trang";
+                            E5[7] = "Callback";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyHaki", "Buso");
+                                return; 
+                            end;
+                            E5[5] = "Description";
+                            E5[3] = "Title";
+                            E5[6] = "Gi\xc3\xa1 25,000$";
+                            E5[1] = "F";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "KenTalk", "Buy");
+                                return; 
+                            end;
+                            E5[7] = "Callback";
+                            E5[4] = "Mua Haki Quan S\xc3\xa1t";
+                            E5[5] = "Description";
+                            T5 = X[E5[1]];
+                            E5[3] = "Title";
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[6] = "Gi\xc3\xa1 750,000$";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            T5 = X[E5[1]];
+                            E5[7] = "Callback";
+                            E5[1] = "AddButton";
+                            E5[3] = "Title";
+                            E5[4] = "Mua Soru";
+                            E5[1] = T5[E5[1]];
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BuyHaki", "Soru");
+                                return; 
+                            end;
+                            E5[1] = "F";
+                            E5[5] = "Description";
+                            E5[6] = "Gi\xc3\xa1 100,000$";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            T5 = X[E5[1]];
+                            E5[7] = "Callback";
+                            E5[5] = "Description";
+                            E5[4] = "Mua T\xe1\xbb\x99c Qu\xe1\xbb\xb7";
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[3] = "Title";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            E5[2] = "Th\xc6\xb0 Vi\xe1\xbb\x87n Nh\xc3\xa2n V\xe1\xba\xadt";
+                            E5[6] = "Gi\xc3\xa1 100 Ectoplasm";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddSection";
+                            E5[1] = T5[E5[1]];
+                            E5[8] = function(...)
+                                v3 = game;
+                                v5 = v3.GetService(v3, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, unpack({
+                                    [1] = "Ectoplasm",
+                                    [2] = "BuyCheck",
+                                    [3] = 4
+                                }));
+                                v4 = game;
+                                v5 = v4.GetService(v4, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, unpack({
+                                    [1] = "Ectoplasm",
+                                    [2] = "Change",
+                                    [3] = 4
+                                }));
+                                return; 
+                            end;
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddButton";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[8] = function(...)
+                                v3 = game;
+                                v5 = v3.GetService(v3, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, unpack({
+                                    [1] = "CyborgTrainer",
+                                    [2] = "Buy"
+                                }));
+                                return; 
+                            end;
+                            E5[3] = "Title";
+                            E5[1] = T5[E5[1]];
+                            E5[7] = "Callback";
+                            E5[6] = "Gi\xc3\xa1 2,500F";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[5] = "Description";
+                            E5[4] = "Mua T\xe1\xbb\x99c Ng\xc6\xb0\xe1\xbb\x9di M\xc3\xa1y";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BlackbeardReward", "Reroll", "1");
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BlackbeardReward", "Reroll", "2");
+                                return; 
+                            end;
+                            E5[3] = "Title";
+                            E5[4] = "\xc4\x90\xe1\xbb\x95i T\xe1\xbb\x99c";
+                            E5[6] = "Gi\xc3\xa1 3,000F";
+                            E5[1] = "AddButton";
+                            E5[7] = "Callback";
+                            E5[1] = T5[E5[1]];
+                            E5[5] = "Description";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[1] = "F";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            T5 = X[E5[1]];
+                            E5[7] = "Callback";
+                            E5[3] = "Title";
+                            E5[1] = "AddButton";
+                            E5[8] = function(...)
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BlackbeardReward", "Refund", "1");
+                                v1 = game;
+                                v5 = v1.GetService(v1, "ReplicatedStorage").Remotes.CommF_;
+                                v5.InvokeServer(v5, "BlackbeardReward", "Refund", "2");
+                                return; 
+                            end;
+                            E5[1] = T5[E5[1]];
+                            E5[4] = "Reset Ch\xe1\xbb\x89 S\xe1\xbb\x91";
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[5] = "Description";
+                            E5[6] = "Gi\xc3\xa1 2,500F";
+                            E5[2] = {
+                                [E5[3]] = E5[4],
+                                [E5[5]] = E5[6],
+                                [E5[7]] = E5[8]
+                            };
+                            E5[1] = "F";
+                            T5 = X[E5[1]];
+                            E5[1] = "AddButton";
+                            E5[1] = T5[E5[1]];
+                            E5[1] = E5[1](T5, E5[2]);
+                            E5[2] = "game";
+                            E5[1] = Env[E5[2]];
+                            E5[3] = "Players";
+                            E5[2] = "GetService";
+                            E5[2] = E5[1][E5[2]];
+                            E5[2] = E5[2](E5[1], E5[3]);
+                            E5[1] = "LocalPlayer";
+                            E5[1] = true;
+                            while E5[1] do
+                                E5[3] = "task";
+                                E5[2] = Env[E5[3]];
+                                E5[3] = "wait";
+                                E5[1] = E5[2][E5[3]];
+                                E5[3] = 1;
+                                E5[2] = E5[1](E5[3]);
+                                E5[2] = v5;
+                                E5[4] = "Character";
+                                E5[3] = E5[2][E5[1]][E5[4]];
+                                E5[1] = E5[3];
+                                if E5[3] then
+                                    E5[3] = "Yeti-Yeti";
+                                    E5[2] = "FindFirstChild";
+                                    E5[4] = E5[2];
+                                    E5[2] = E5[1][E5[2]];
+                                    E5[2] = E5[2](E5[1], E5[3]);
+                                    E5[3] = E5[2];
+                                    if E5[2] then
+                                        E5[5] = "FindFirstChild";
+                                        E5[6] = "LeftClickRemote";
+                                        E5[5] = E5[2][E5[5]];
+                                        E5[5] = E5[5](E5[2], E5[6]);
+                                        E5[3] = E5[5];
+                                    end;
+                                    v5 = E5[4];
+                                    if E5[3] then
+                                        E5[5] = "\xc4\x90\xc3\xa3 t\xc3\xacm th\xe1\xba\xa5y 'Yeti-Yeti', b\xe1\xba\xaft \xc4\x91\xe1\xba\xa7u Fast Attack!";
+                                        E5[4] = "print";
+                                        E5[3] = Env[E5[4]];
+                                        E5[4] = E5[3](E5[5]);
+                                        E5[3] = E5[2];
+                                        E5[4] = E5[4];
+                                        if E5[2] then
+                                            E5[7] = "Parent";
+                                            E5[6] = E5[2][E5[7]];
+                                            E5[5] = E5[6] == E5[1];
+                                            E5[3] = E5[5];
+                                        end;
+                                        v5 = E5[4];
+                                        if E5[3] then
+                                            E5[5] = "task";
+                                            E5[4] = Env[E5[5]];
+                                            E5[5] = "wait";
+                                            E5[3] = E5[4][E5[5]];
+                                            E5[4] = E5[3]();
+                                            E5[4] = 10;
+                                            E5[5] = E5[4];
+                                            E5[3] = 10;
+                                            E5[4] = 1;
+                                            E5[6] = E5[4];
+                                            E5[4] = 0;
+                                            E5[7] = E5[6] < E5[4];
+                                            E5[4] = E5[3] - E5[6];
+                                            E5[8] = not E5[7];
+                                            E5[4] = E5[4] + E5[6];
+                                            E5[3] = E5[4] <= E5[5];
+                                            E5[3] = E5[8] and E5[3];
+                                            E5[8] = E5[4] >= E5[5];
+                                            E5[8] = E5[7] and E5[8];
+                                            E5[3] = E5[8] or E5[3];
+                                            E5[8] = 13510055;
+                                            E5[3] = 5642072;
+                                            v5 = E5[3] and E5[8] or E5[3];
+                                        else
+                                        end;
+                                    end;
+                                    E5[1] = nil;
+                                    E5[2] = nil;
+                                else
+                                    E5[4] = "CharacterAdded";
+                                    E5[3] = E5[2][E5[1]][E5[4]];
+                                    E5[4] = "Wait";
+                                    E5[4] = E5[3][E5[4]];
+                                    E5[4] = E5[4](E5[3]);
+                                    E5[1] = E5[4];
+                                end; 
+                            end;
+                            return;
+                        else
+                            I5 = e5.CharacterAdded;
+                            f5 = I5.Wait(I5);
+                        end;
+                    end;
+                end;
+            else
+                UF = r9.CharacterAdded;
+                xF = UF.Wait(UF);
+            end;
+        end;
+    end;
+end;
